@@ -151,6 +151,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  
     h1,
     p {
       color: var(--text-color);
@@ -464,6 +465,8 @@ header {
       text-align: center;
       margin: 2rem;
       transition: 0.3s ease;
+      }
+
       .card-img {
         grid-area: image;
         border-top-left-radius: 16px;
@@ -861,7 +864,7 @@ header {
   .links {
     position: absolute;
     right: 0;
-    height: 50vh;
+    height: 25vh; // Hamburger menu length vertically
     top: 8vh;
     display: flex;
     flex-direction: column;
