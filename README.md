@@ -1,6 +1,6 @@
 #### 📝 Portfolio
 
-![portfolio](https://j-grosse.github.io/)
+[j-grosse.github.io](https://j-grosse.github.io/)
 
 My personal portfolio to showcase my programming projects.
 

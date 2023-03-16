@@ -447,6 +447,7 @@ header {
     justify-content: center;
     width: 75%;
     margin: auto;
+
     .card {
       display: grid;
       grid-template-columns: 20rem;
@@ -466,6 +467,7 @@ header {
       .card-text {
         grid-area: text;
         padding: 1.5rem;
+
         h2 {
           padding: 0.5rem 0 1rem 0;
           color: var(--text-color);
