@@ -281,12 +281,13 @@ header {
   background: var(--dark-blue);
   .container-about {
     display: flex;
+
     .about-me {
       width: 60%;
       h2 {
         font-size: 2.5rem;
         position: relative;
-        color: #fff;
+        color: var(--text-color);
         letter-spacing: 2px;
         padding-top: 5rem;
         width: 66%;
@@ -309,7 +310,7 @@ header {
         margin: 0 auto;
         padding: 2rem 0 5rem 0;
         max-width: 67%;
-        color: rgb(200, 200, 200);
+        color: var(--text-color);
         font-weight: bolder;
         line-height: 1.7;
       }
@@ -365,7 +366,7 @@ header {
     width: 80%;
     margin: 0 auto;
 
-    img{
+    img {
       max-width: 100%;
       max-height: 100%;
     }
@@ -721,7 +722,7 @@ header {
       #card {
         grid-template-columns: 15rem;
         grid-template-rows: 10rem 12rem 3rem;
-        
+
         .card-text {
           h2 {
             font-size: 1rem;
@@ -854,13 +855,13 @@ header {
 //////////////////////////////////////// MEDIUM-SIZED DEVICES ////////////////////////////////////////
 @media screen and (max-width: 1024px) {
   #nav {
-    min-height: 8vh;
+    min-height: 4vh;
   }
 
   .links {
     position: absolute;
     right: 0;
-    height: 92vh;
+    height: 50vh;
     top: 8vh;
     display: flex;
     flex-direction: column;

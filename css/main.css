@@ -272,7 +272,7 @@ header .socials ul li a:hover {
 #about .container-about .about-me h2 {
   font-size: 2.5rem;
   position: relative;
-  color: #fff;
+  color: var(--text-color);
   letter-spacing: 2px;
   padding-top: 5rem;
   width: 66%;
@@ -295,7 +295,7 @@ header .socials ul li a:hover {
   margin: 0 auto;
   padding: 2rem 0 5rem 0;
   max-width: 67%;
-  color: rgb(200, 200, 200);
+  color: var(--text-color);
   font-weight: bolder;
   line-height: 1.7;
 }
@@ -749,12 +749,12 @@ header .socials ul li a:hover {
 }
 @media screen and (max-width: 1024px) {
   #nav {
-    min-height: 8vh;
+    min-height: 4vh;
   }
   .links {
     position: absolute;
     right: 0;
-    height: 92vh;
+    height: 50vh;
     top: 8vh;
     display: flex;
     flex-direction: column;
