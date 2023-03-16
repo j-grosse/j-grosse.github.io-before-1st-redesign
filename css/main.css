@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 :root {
-  --orange: #e49e4e;
-  --dark-green: #53e43971;
-  --blue: #0077b5;
+  --orange: #fb8500;
+  --blue: #8ecae6;
+  --yellow: #ffb703;
   --gray: rgb(170, 170, 170);
   --dark-gray: #181a1b;
-  --dark-blue: #002333;
+  --dark-blue: #023047;
   --text-color: #fff;
   --lighter-text: rgb(219, 219, 219);
   --card-background: #2e3031;
@@ -67,7 +67,7 @@ header nav .logo {
   transition: 0.3s ease;
 }
 header nav .logo span {
-  color: var(--orange);
+  color: var(--yellow);
 }
 header nav .links {
   display: flex;
@@ -91,7 +91,7 @@ header nav .links .link::after {
   display: block;
   width: 0;
   height: 4px;
-  background: var(--dark-green);
+  background: var(--orange);
   transition: width 0.3s ease;
 }
 header nav .links .link:hover::after {
@@ -152,10 +152,10 @@ header .hero h1 {
   font-size: calc(1.2rem + 3.2vw);
 }
 header .hero h1 span {
-  color: var(--orange);
+  color: var(--yellow);
 }
 header .hero p {
-  color: var(--lighter-text);
+  color: var(--yellow);
   line-height: 1.6;
   font-size: calc(14px + 0.5vw);
   text-align: center;
@@ -185,7 +185,7 @@ header .hero .hero-btns a {
 }
 header .hero .hero-btns .about {
   color: var(--text-color);
-  border: 2px solid var(--orange);
+  border: 2px solid var(--yellow);
 }
 header .hero .hero-btns .about:hover {
   background: var(--orange);
@@ -194,11 +194,12 @@ header .hero .hero-btns .about:hover {
 }
 header .hero .hero-btns .projects-btn {
   color: #fff;
-  border: 2px solid var(--blue);
-  background: var(--blue);
+  border: 2px solid var(--yellow);
+  background: var(--orange);
 }
 header .hero .hero-btns .projects-btn:hover {
   background: transparent;
+  box-shadow: 0 0 0 5px rgba(228, 78, 88, 0.4039215686);
   color: var(--text-color);
 }
 header .socials {
@@ -226,10 +227,10 @@ header .socials ul li a i {
   padding-left: 1.5rem;
 }
 header .socials ul li .linkedin {
-  background: var(--blue);
+  background: var(--dark-blue);
 }
 header .socials ul li .github {
-  background: #2e3031;
+  background: var(--card-background);
 }
 header .socials ul li .email {
   background: var(--orange);
@@ -243,7 +244,7 @@ header .socials ul li a:hover {
   position: fixed;
   top: 0;
   width: 100%;
-  background: var(--dark-green);
+  background: var(--orange);
   transition: 0.3s ease;
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
@@ -578,7 +579,7 @@ header .socials ul li a:hover {
 #back-to-top:hover,
 #back-to-top:focus {
   background-color: var(--text-color);
-  color: var(--dark-green);
+  color: var(--orange);
 }
 
 .btn-entrance {
