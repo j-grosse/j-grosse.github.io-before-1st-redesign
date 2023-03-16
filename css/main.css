@@ -766,7 +766,7 @@ header .socials ul li a:hover {
     opacity: 0;
   }
   #home .fixed {
-    background: #e43955;
+    background: var(--orange);
   }
   .hamburger-menu {
     display: block !important;
@@ -818,7 +818,7 @@ header .socials ul li a:hover {
 .nav-active {
   z-index: 1000;
   transform: translateX(0%);
-  background: #e43955;
+  background: var(--orange);
 }
 
 .toggle .line1 {

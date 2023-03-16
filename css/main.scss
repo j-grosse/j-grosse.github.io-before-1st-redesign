@@ -873,7 +873,7 @@ header {
   }
 
   #home .fixed {
-    background: #e43955;
+    background: var(--orange);
   }
 
   .hamburger-menu {
@@ -944,7 +944,7 @@ header {
 .nav-active {
   z-index: 1000;
   transform: translateX(0%);
-  background: #e43955;
+  background: var(--orange);
 }
 
 .toggle .line1 {
