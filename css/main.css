@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 :root {
-  --orange: #fb8500;
+  --orange: #e07800;
   --blue: #8ecae6;
   --yellow: #ffb703;
   --gray: rgb(170, 170, 170);
@@ -67,7 +67,7 @@ header nav .logo {
   transition: 0.3s ease;
 }
 header nav .logo span {
-  color: var(--yellow);
+  color: var(--orange);
 }
 header nav .links {
   display: flex;
@@ -113,7 +113,7 @@ header .color-toggle-label {
   width: 3rem;
   height: 1.6rem;
   border-radius: 25px;
-  background: var(--blue);
+  background: var(--orange);
   position: absolute;
   cursor: pointer;
   transition: 0.2s ease;
@@ -152,10 +152,10 @@ header .hero h1 {
   font-size: calc(1.2rem + 3.2vw);
 }
 header .hero h1 span {
-  color: var(--yellow);
+  color: var(--orange);
 }
 header .hero p {
-  color: var(--yellow);
+  color: var(--text-color);
   line-height: 1.6;
   font-size: calc(14px + 0.5vw);
   text-align: center;
@@ -185,7 +185,7 @@ header .hero .hero-btns a {
 }
 header .hero .hero-btns .about {
   color: var(--text-color);
-  border: 2px solid var(--yellow);
+  border: 2px solid var(--orange);
 }
 header .hero .hero-btns .about:hover {
   background: var(--orange);
@@ -193,18 +193,18 @@ header .hero .hero-btns .about:hover {
   color: #fff;
 }
 header .hero .hero-btns .projects-btn {
-  color: #fff;
-  border: 2px solid var(--yellow);
+  color: var(--text-color);
   background: var(--orange);
+  border: 2px solid var(--orange);
 }
 header .hero .hero-btns .projects-btn:hover {
-  background: transparent;
+  background: var(--orange);
   box-shadow: 0 0 0 5px rgba(228, 78, 88, 0.4039215686);
   color: var(--text-color);
 }
 header .socials {
   z-index: 100;
-  top: 65%;
+  top: 20%;
   position: absolute;
   left: -8.5rem;
   animation: social-links 0.5s;
@@ -236,7 +236,7 @@ header .socials ul li .email {
   background: var(--orange);
 }
 header .socials ul li a:hover {
-  transform: translate(120px, 0);
+  transform: translate(110px, 0);
 }
 
 #home .fixed {
@@ -344,6 +344,10 @@ header .socials ul li a:hover {
   flex-wrap: wrap;
   width: 80%;
   margin: 0 auto;
+}
+#skills .container img {
+  max-width: 100%;
+  max-height: 100%;
 }
 #skills .container .languages span {
   font-size: 0.9rem;
@@ -560,7 +564,7 @@ header .socials ul li a:hover {
   display: none;
   position: fixed;
   bottom: 3%;
-  right: 4%;
+  right: 5%;
   font-size: 1.5rem;
   width: 3.5rem;
   height: 3.5rem;
@@ -619,6 +623,7 @@ header .socials ul li a:hover {
   }
   #home .hero #coder {
     font-size: 0.7rem;
+    justify-content: center;
   }
   #home .hero .hero-btns #about-btn,
   #home .hero .hero-btns #projects-btn {
