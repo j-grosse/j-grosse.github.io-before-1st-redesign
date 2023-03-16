@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link rel="icon" type="image/png" href="./images/favicon.png" />
+  <meta name="keyword" content="Jakob Grosse, portfolio, javascript, developer" />
+  <meta name="description" content="Creative Artist and aspiring Web Developer." />
+  <meta property="og:title" content="Jakob Grosse | Developer" />
+  <meta property="og:description" content="Creative Artist and aspiring Web Developer." />
+  <meta property="og:image"
+    content="https://avatars.githubusercontent.com/u/46205282?s=400&u=e45c30c63d63d42eb50136cca684ba72bba1741b&v=4" />
+  <meta property="og:url" content="https://j-grosse.github.io/" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" />
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <script defer src="./lib/typed.js"></script>
+  <!-- <script defer src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script> -->
+  <script defer src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" data-auto-a11y="true"></script>
+  <script defer src="https://friconix.com/cdn/friconix.js"></script>
+  <script defer src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script defer src="script.js"></script>
+  <title>Jakob Grosse | Portfolio</title>
+</head>
+
+
+<body>
+  <!-- BACK TO TOP BUTTON -->
+  <button id="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- HEADER -->
+  <header id="home">
+    <nav id="nav" aria-label="Main menu">
+      <div class="logo">
+        <h3>Jakob <span>Grosse</span></h3>
+      </div>
+
+      <ul class="links">
+        <li>
+          <a href="#home" class="link"><i class="fas fa-home"></i> Home</a>
+        </li>
+        <li>
+          <a href="#about" class="link"><i class="fas fa-user"></i> About</a>
+        </li>
+        <li>
+          <a href="#skills" class="link"><i class="fas fa-tools"></i> Skills</a>
+        </li>
+        <li>
+          <a href="#projects" class="link"><i class="fab fa-codepen"></i> Projects</a>
+        </li>
+        <li>
+          <!-- DARK MODE TOGGLE -->
+          <div class="color-toggle-container">
+            <input type="checkbox" id="color-toggle-input" />
+            <label for="color-toggle-input" class="color-toggle-label">
+              <div class="color-toggle"></div>
+            </label>
+          </div>
+        </li>
+      </ul>
+
+      <div class="hamburger-menu" id="hamburger-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div class="hero">
+      <img class="avatar" src="./images/avatar.png" alt="avatar" loading="lazy" />
+      <h1 class="h1">Hi, I'm Jay <br>
+        <span class="animate"></span>
+      </h1>
+      <p class="coder" id="coder">
+        Creative Artist with passion for Web Development.
+      </p>
+      <div class="hero-btns">
+        <a href="#about" class="about" id="about-btn">About me</a>
+        <a href="#projects" class="projects-btn" id="projects-btn">Projects</a>
+      </div>
+    </div>
+
+    <!-- SOCIAL LINKS -->
+    <div class="socials" id="socials">
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/jakob-g" target="_blank" class="linkedin" aria-label="LinkedIn"
+            rel="noopener">LinkedIn<i class="fi-snsuxl-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="https://github.com/j-grosse" target="_blank" class="github" aria-label="GitHub"
+            rel="noopener">GitHub<i class="fi-snsuxl-github-alt"></i></a>
+        </li>
+        <!-- <li>
+          <a href="mailto:" target="_blank" class="email" aria-label="Email"
+            rel="noopener">Email<i class="fi-xwsuxl-envelope-solid"></i></a>
+        </li> -->
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ABOUT ME -->
+    <section id="about">
+      <div class="container-about">
+        <div class="about-me" id="about-me">
+          <h2><span>About</span> Me</h2>
+          <p>
+            I'm currently looking to improve my software and
+            web development knowledge. I did the University of Helsinki's Java Certificate and I am currently learning
+            Frontend Development via theodinproject.com. My
+            programming journey kickstarted when
+            I did my Wordpress website for my Music and Media-Art Projects.
+            The Odin Project's Full Stack JavaScript / React / MERN-Stack Curriculum is
+            just one of the ways I'm learning to code now. Besides coding, I
+            like to compose electronic music and play video games, watch Star Trek TNG, and meet friends in nature.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS-->
+    <section id="skills">
+      <div class="header" id="header">
+        <h2>My <span>Skills </span></h2>
+      </div>
+      <br />
+
+
+      <div class="container lazy-background" id="container">
+        <div class="certificates">
+          <p><i class="fas fa-certificate"></i></p>
+          <h3>Certificates</h3>
+          <span>Java I & II
+            <span class="iconify" data-icon="logos:java" data-inline="false"></span>
+            <br />
+            <br />
+            <a href="https://certificates.mooc.fi/validate/gu0c85wcd6r" target="_blank"><img
+                src="./images/certificate-java-programming-i small.png" alt="java certificate" loading="lazy" /></a>
+            <a href="https://certificates.mooc.fi/validate/091igy0dvr1c" target="_blank"><img
+                src="./images/certificate-java-programming-ii small.png" alt="java certificate" loading="lazy" /></a>
+        </div>
+
+        <div class="languages">
+          <p><i class="fas fa-code"></i></p>
+          <h3>Languages</h3>
+          <span>Java
+            <span class="iconify" data-icon="logos:java"></span></span>
+          <br />
+          <br />
+          <span>JS
+            <span class="iconify" data-icon="logos:javascript" data-inline="false"></span>
+            <br />
+            <span>HTML
+              <span class="iconify" data-icon="logos:html-5" data-inline="false"></span></span>
+            <br />
+            <span>CSS/SASS
+              <span class="iconify" data-icon="logos:css-3" data-inline="false"></span>
+              <span class="iconify" data-icon="logos:sass" data-inline="false"></span></span>
+            <br />
+            <span>Bootstrap
+              <span class="iconify" data-icon="logos:bootstrap"></span></span>
+            <br />
+        </div>
+
+        <div class="frameworks">
+          <p><i class="fas fa-book-reader"></i></p>
+          <h3>Frameworks/Libraries/Databases</h3>
+          <span>(currently learning MERN stack)</span>
+          <br /><br />
+          <span>React.js
+            <span class="iconify" data-icon="logos:react" data-inline="false"></span></span>
+          <br />
+          <span>Node.js/Express.js
+            <span class="iconify" data-icon="logos:nodejs-icon" data-inline="false"></span>
+            <span class="iconify" data-icon="simple-icons:express" data-inline="false"></span></span>
+          <br />
+          <span>MongoDB
+            <span class="iconify" data-icon="vscode-icons:file-type-mongo"></span></span>
+          <br />
+          <span>SQLite
+            <span class="iconify" data-icon="vscode-icons:file-type-sqlite"></span></span>
+          <br />
+
+        </div>
+        <div class="technologies">
+          <p><i class="fas fa-tools"></i></p>
+          <h3>Technologies</h3>
+          <span>Git
+            <span class="iconify" data-icon="logos:git-icon" data-inline="false"></span></span>
+          <br />
+          <span>Figma
+            <span class="iconify" data-icon="logos:figma"></span></span>
+          <br />
+        </div>
+      </div>
+    </section>
+
+
+    <!-- PROJECT SHOWCASE -->
+    <section id="projects">
+      <div class="header" id="header">
+        <h2>My <span>Projects</span></h2>
+      </div>
+
+      <div class="container reveal lazy-background">
+
+        <div class="card lazy-background" id="card">
+          <div class="card-img card1"></div>
+          <div class="card-text">
+            <h2>Task Cat Timer</h2>
+            <p class="made-with">
+              Made with:
+              <span class="iconify" data-icon="logos:html-5" data-inline="false"></span>
+              <span class="iconify" data-icon="logos:css-3" data-inline="false"></span>
+              <span class="iconify" data-icon="logos:javascript" data-inline="false"></span>
+              <span class="iconify" data-icon="logos:bulma" data-inline="false"></span>
+            </p>
+            <br />
+            <p>A PWA using using vanilla JavaScript and bulma css.
+              After 25 min. a random cat image from the Cataas API pops as reward.
+              The images are then stored on the browser's localStorage.
+            </p>
+            <br />
+          </div>
+          <div class="card-buttons">
+            <a href="https://j-grosse.github.io/PrioKitty-App" target="_blank" class="demo"><i class="far fa-eye"></i>
+              Demo</a>
+            <a href="https://github.com/j-grosse/PrioKitty-App" target="_blank" class="code"><i class="fas fa-code"></i>
+              Code</a>
+          </div>
+        </div>
+
+        <div class="card lazy-background" id="card">
+          <div class="card-img card2"></div>
+          <div class="card-text">
+            <h2>Star Wars API Search</h2>
+            <p class="made-with">
+              Made with:
+              <span class="iconify" data-icon="logos:html-5" data-inline="false"></span>
+              <span class="iconify" data-icon="logos:css-3" data-inline="false"></span>
+              <span class="iconify" data-icon="logos:javascript" data-inline="false"></span>
+              <span class="iconify" data-icon="logos:bootstrap" data-inline="false"></span>
+            </p>
+            <br />
+            <p>Website for searching the Star Wars API for persons and Starships.</p>
+            <br />
+          </div>
+          <div class="card-buttons">
+            <a href="" target="_blank" class="demo"><i class="far fa-eye"></i>
+              Demo</a>
+            <a href="" target="_blank" class="code"><i class="fas fa-code"></i> Code</a>
+          </div>
+        </div>
+
+        <div class="card lazy-background" id="card">
+          <div class="card-img card3"></div>
+          <div class="card-text">
+            <h2>Catch it Jay</h2>
+            <p class="made-with">
+              Made with:
+              <span class="iconify" data-icon="logos:html-5" data-inline="false"></span>
+              <span class="iconify" data-icon="logos:css-3" data-inline="false"></span>
+              <span class="iconify" data-icon="logos:javascript" data-inline="false"></span>
+              <span class="iconify" data-icon="logos:p5js" data-inline="false"></span>
+            </p>
+            <br />
+            <p>Collect Synthesizers and break the high score.</p>
+            <p>A game made with P5.js.</p>
+            <br />
+          </div>
+          <div class="card-buttons">
+            <a href="https://editor.p5js.org/jay808/full/nVbGhEG3y" target="_blank" class="demo"><i
+                class="far fa-eye"></i> Demo</a>
+            <a href="https://github.com/j-grosse/Catch-it-Jay-Game" target="_blank" class="code"><i
+                class="fas fa-code"></i> Code</a>
+          </div>
+        </div>
+
+        <div class="card lazy-background" id="card">
+          <div class="card-img card4"></div>
+          <div class="card-text">
+            <h2>Pharmacy Storage</h2>
+            <p class="made-with">
+              Made with:
+
+              <span class="iconify" data-icon="logos:java" data-inline="false"></span>
+              <span class="iconify" data-icon="skill-icons:maven-light" data-inline="false"></span>
+              <span class="iconify" data-icon="simple-icons:junit5" data-inline="false"></span>
+              <span class="iconify" data-icon="carbon:gui" data-inline="false"></span>
+            </p>
+            <br />
+            <p>Library to store books on the browser with localStorage.</p>
+            <br />
+          </div>
+          <div class="card-buttons">
+            <!-- <a href="https://github.com/j-grosse/Lagerverwaltung-Apotheke" target="_blank" class="demo"><i
+                class="far fa-eye"></i> Demo</a> -->
+            <a href="https://github.com/j-grosse/Lagerverwaltung-Apotheke" target="_blank" class="code"><i
+                class="fas fa-code"></i> Code</a>
+          </div>
+        </div>
+
+        <div class="card lazy-background" id="card">
+          <div class="card-img card5"></div>
+          <div class="card-text">
+            <h2>My Music Projects</h2>
+            <p class="made-with">
+              Made with:
+
+              <span class="iconify" data-icon="logos:wordpress" data-inline="false"></span>
+            </p>
+            <br />
+            <p>Wordpress Website with Music and Performance Videos of my Multimedia Shows.</p>
+            <br />
+          </div>
+          <div class="card-buttons">
+            <a href="https://jaydatamusic.com" target="_blank" class="demo"><i class="far fa-eye"></i> Demo</a>
+            <!-- <a href="https://jaydatamusic.com" target="_blank" class="code"><i
+                class="fas fa-code"></i> Code</a> -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- <section>
+      <div class="container-resume">
+        <div class="resume" id="resume"></div>
+        <p></p>
+      </div>
+    </section> -->
+
+    <button id="back-to-top"></button>
+  </main>
+
+  <footer>
+    <section id="footer">
+      <div class="container-footer">
+        <div class="footer" id="footer">
+          <p>Made with ❤ by Jay</p>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+</body>
+
+</html>
