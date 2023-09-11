@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 :root {
   --orange: #e07800;
   --blue: #8ecae6;
@@ -37,7 +37,7 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -86,7 +86,7 @@ header nav .links a {
   letter-spacing: 2px;
 }
 header nav .links .link::after {
-  content: "";
+  content: '';
   position: relative;
   display: block;
   width: 0;
@@ -247,7 +247,7 @@ header .socials ul li a:hover {
   background: var(--orange);
   transition: 0.3s ease;
   -webkit-backdrop-filter: blur(8px);
-          backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
 }
 #home .fixed .logo {
@@ -282,7 +282,7 @@ header .socials ul li a:hover {
   color: var(--orange);
 }
 #about .container-about .about-me h2::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 82%;
   margin-left: 1rem;
@@ -330,7 +330,7 @@ header .socials ul li a:hover {
   color: var(--orange);
 }
 #skills .header h2::after {
-  content: "";
+  content: '';
   position: absolute;
   margin-left: 1rem;
   top: 50%;
@@ -409,7 +409,7 @@ header .socials ul li a:hover {
   color: var(--orange);
 }
 #projects .header h2::after {
-  content: "";
+  content: '';
   position: absolute;
   margin-left: 1rem;
   top: 50%;
@@ -428,7 +428,7 @@ header .socials ul li a:hover {
   display: grid;
   grid-template-columns: 20rem;
   grid-template-rows: 13rem 16rem 4rem;
-  grid-template-areas: "image" "text" "buttons";
+  grid-template-areas: 'image' 'text' 'buttons';
   border-radius: 19px;
   background: var(--dark-gray);
   text-align: center;
@@ -483,6 +483,9 @@ header .socials ul li a:hover {
   background: var(--text-color);
   color: var(--orange);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+#projects .card0 {
+  background: url(../images/rapidcats.png);
 }
 #projects .card1 {
   background: url(../images/priokitty.png);
@@ -858,4 +861,4 @@ header .socials ul li a:hover {
   100% {
     transform: translateX(0);
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
