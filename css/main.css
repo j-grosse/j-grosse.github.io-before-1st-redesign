@@ -435,40 +435,37 @@ header .socials ul li a:hover {
   margin: 2rem;
   transition: 0.3s ease;
 }
-#projects .container .card .box {
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
-}
-#projects .container .card .card-img {
+#projects .container .card-img {
   grid-area: image;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   background-size: cover;
 }
-#projects .container .card .card-text {
+#projects .container .card-text {
   grid-area: text;
   padding: 1.5rem;
 }
-#projects .container .card .card-text h2 {
+#projects .container .card-text h2 {
   padding: 0.5rem 0 1rem 0;
   color: var(--text-color);
 }
-#projects .container .card .card-text p {
+#projects .container .card-text p {
   color: var(--gray);
   line-height: 1.6;
 }
-#projects .container .card .card-text .made-with {
+#projects .container .card-text .made-with {
   color: var(--gray);
   line-height: 1.6;
   font-weight: bold;
 }
-#projects .container .card .card-text .iconify {
+#projects .container .card-text .iconify {
   font-size: 1.5rem;
   vertical-align: top;
 }
-#projects .container .card .card-buttons {
+#projects .container .card-buttons {
   grid-area: buttons;
 }
-#projects .container .card .card-buttons a {
+#projects .container .card-buttons a {
   margin-left: 0.5rem;
   text-decoration: none;
   padding: 8px 24px;
@@ -479,27 +476,27 @@ header .socials ul li a:hover {
   border-radius: 25px;
   transition: 0.5s ease;
 }
-#projects .container .card .card-buttons a i {
+#projects .container .card-buttons a i {
   padding-right: 5px;
 }
-#projects .container .card .card-buttons a:hover {
+#projects .container .card-buttons a:hover {
   background: var(--text-color);
   color: var(--orange);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
-#projects .container .card1 {
+#projects .card1 {
   background: url(../images/priokitty.png);
 }
-#projects .container .card2 {
+#projects .card2 {
   background: url(../images/starwars.png);
 }
-#projects .container .card3 {
+#projects .card3 {
   background: url(../images/catchit.png);
 }
-#projects .container .card4 {
+#projects .card4 {
   background: url(../images/lagerapp.png);
 }
-#projects .container .card5 {
+#projects .card5 {
   background: url(../images/website.png);
 }
 
